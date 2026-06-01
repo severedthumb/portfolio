@@ -2,8 +2,70 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    font-family: sans-serif;
 }
 
 body {
+    background-color: rgb(220, 20, 20);
+}
+
+header, main {
+    width: 90%;
+    max-width: 1200px;
+}
+
+header {
+    margin: 30px auto 10px;
+}
+
+main {
+    margin: auto;
+}
+
+
+.project-img {
     background-color: #181818;
+    width: 100%;
+    aspect-ratio: 3 / 1;
+}
+
+.txt-section {
+    max-width: 720px;
+    margin: 27px auto;
+}
+
+
+
+
+/*  FONT STUFF  */
+
+h1, h2, h3, p {
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Pirata One';
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Pirata One';
+    font-size: 2.369em;
+    line-height: 1.2;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.777em;
+    line-height: 1.3;
+}
+
+p {
+    margin: 20px 0;
+    font-size: 1.25em;
+    line-height: 1.6;
 }
