@@ -17,6 +17,18 @@ header, main {
 
 header {
     margin: 30px auto 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-link {
+    color: white;
+    width: 40px;
 }
 
 main {
@@ -45,7 +57,7 @@ h1, h2, h3, p {
 }
 
 h1 {
-    margin: 0;
+    margin: 0 auto 0 0;
     font-family: 'Pirata One';
     font-size: 60px;
 }
